@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR5c0340/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR5c0340/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金木萬靈論一卷
+  identifiers:
+    krp: KR5c0340
+  tags:
+    tls-dates: dat04500
+    kr-categories: KR5c
+  source:
+    repository: tls-texts
+    path: data/tls/KR5c0340.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR5c0340_001-CHANT.yaml, hash: 'sha256:fbda911f644be423de93c79434365f4bca4cb1820c5ac7a3cc764f7f0d19b102'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5c0340_001-CHANT.markers.yaml, hash: 'sha256:aa8749cb3284232dcc866bf6496cd2074296a124903ff0dedf1bc40a7e62a513'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5c0340_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1206
+  label: 金木萬靈論
+  type: section
+  level: 1
+hash: sha256:b8df3e6ec0ed01ad68f3c789083196a1f5411295745115f9be10d6b567b089b8

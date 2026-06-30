@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0340/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0340/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金木萬靈論
+  date: '2015-08-29 00:56:18.094275'
+  source:
+    repository: kanripo
+    path: KR5c0340
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0340_000-HFL.yaml, hash: 'sha256:ed05c9fa5db1166952bd718049ba40c99c43d547c475f2cb4789ca6c4f850bbd'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0340_000-HFL.markers.yaml, hash: 'sha256:48e4695bf7a11a5362234f30d1f2feeb0385dd159d3dbb564811bb93fedf95b1'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0340_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1210
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:785d5e93ca776d2874d98c48cf5e75c7789c4e04c3b2edce4f41689e68ca6441

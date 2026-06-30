@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0340/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0340/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金木萬靈論
+  date: '2015-08-29 00:56:18.094275'
+  source:
+    repository: kanripo
+    path: KR5c0340
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0340_000-ZTDZ.yaml, hash: 'sha256:e606737c6cb35c83b71ec2afe2c49fbdc368c127a8d1ec9db36dfb071a4db913'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0340_000-ZTDZ.markers.yaml, hash: 'sha256:338513222b4c1e1f0d5e0a1b06d486b660925fcc34aff35fc37ebfab32e12957'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0340_SJB_000-190353b
+    span:
+    - body
+    - 0
+    - 1210
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:143873f2556d6cfe321d474481b3a9d4e4bb2f22d1177b3a7f1b429a328f80aa
