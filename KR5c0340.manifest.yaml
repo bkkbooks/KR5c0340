@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR5c0340/v1
 canonical_location: https://kanripo.org/bkk/KR5c0340/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 金木萬靈論一卷
   identifiers:
@@ -25,9 +25,9 @@ editions:
 - short: krp
 assets:
   parts:
-  - {seq: 1, filename: KR5c0340_001.yaml, hash: 'sha256:fbda911f644be423de93c79434365f4bca4cb1820c5ac7a3cc764f7f0d19b102'}
+  - {seq: 1, filename: KR5c0340_001.yaml, hash: 'sha256:e90b7801d0d5de325764b6e4d1f6298315b3b9214d9364d91880e60dad9f9cb8'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR5c0340_001.markers.yaml, hash: 'sha256:e4e3b55e081a8d178adbf671da53ad44ee239170c63859d55f9902b89cffaea0'}
+  - {seq: 1, role: markers, filename: assets/KR5c0340_001.markers.yaml, hash: 'sha256:29c9dfb6e5969a9fe3fac6759115892aa242bdb242fbd9e79d01d776b93d152b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,4 +39,7 @@ table_of_contents:
   label: 金木萬靈論
   type: section
   level: 1
-hash: sha256:7d9a6ddd2833275c391f3fe6b827344e30133031466cede6d508a390b1dfec22
+hash: sha256:52b929500cf12225115f907e326af9b5361b574d0433ff371133f0a8d73846b2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
